@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP with CAPTCHA</title>
+    <link rel="stylesheet" href="./otp.css">
+</head>
+<body>
+    <div class="container">
+        <h2>OTP CAPTCHA VERIFICATION</h>
+        <div class="otp">
+            <input type="text" name="" id="otp1">
+            <input type="text" name="" id="otp2">
+            <input type="text" name="" id="otp3">
+            <input type="text" name="" id="otp4">
+        </div>
+        <div class="captcha">
+            <span id="capcode"></span>
+            <button onclick="generateCaptcha()">Refresh</button>
+        </div>
+        <button id="submit">Submit</button>
+        <div id="message" class="message"></div>
+    </div>
+    <script src="./otp.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    justify-content: center;
+}
+body{
+   border: 1px solid black; 
+   
+   height: 30vh;
+   width: 60vw;
+   justify-content: center;
+   display: flex;
+}
+.container{
+    text-align: center;
+    padding:20px;  
+}
+.otp input{
+    border: 1px solid red;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 0 5px;
+}
+.captcha{
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.captcha span{
+    height: 30px;
+    width: 40%;
+    justify-content: center;
+    
+    border: 1px solid blue;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+#refresh, #submit{
+    border: 1px solid rgb(32, 3, 3);
+    margin-top: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+#submit:hover {
+    background-color: #45a049;
+}
+.message{
+    margin-top: 15px;
+    font-size:18px ;
+}
